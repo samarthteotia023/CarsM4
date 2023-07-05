@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.main{
+    @apply text-amber-950
+}
+@tailwind utilities;
+
+
+*:focus{
+    outline: none;
+}
+   
