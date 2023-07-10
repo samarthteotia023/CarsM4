@@ -8,28 +8,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://use.fontawesome.com/a8225efc69.js"></script>
 </head>
-<body style="background-color: #ECEDE8;">
-    <nav id="navbar"   class="lg:px-4  mx-8 flex flex-col lg:flex-row   my-2  justify-between items-center text-gray-500 ">
-        <div class=" nav flex flex-row w-screen   lg:w-[450px] justify-between  items-center ">
+<body  style="background-color: #ECEDE8;">
+    
+    <nav id="navbar" style=" z-index: 2;  backdrop-filter: blur(4px);"  class=" flex w-screen   flex-col lg:flex-row  py-2    justify-center items-center text-gray-500 ">
+        <div class=" nav   flex flex-row w-11/12 lg:w-4/12   justify-between  items-center "> 
             <div class="flex flex-row justify-center items-center">
-            <img src="./logo.png" class="h-10" alt="">
-          <p class="main  mx-4  font-semibold text-3xl">InspireM5</p>
+            <img src="./logo.png" class="h-12" alt="">
+          <p class="main  mx-4  font-semibold text-2xl">InspireM5</p>
         </div>
-         <i onclick="toogelnav()" class=" fa fa-bars main text-2xl  lg:hidden mx-12 float-right" aria-hidden="true"></i>
+         <i onclick="toogelnav()" class=" fa fa-bars main text-2xl  lg:hidden  " aria-hidden="true"></i>
      </div>
-         <ul class=" abc flex flex-col items-center lg:flex lg:flex-row justify-center  lg:space-x-12  ">
-             <li class=" lg:mx-2 lg:py-0 main py-2 text-2xl  cursor-pointer"> <a href="">Home</a></li>
-             <li class="lg:mx-2 lg:py-0 main py-2 text-2xl cursor-pointer"><a href="">Features</a></li>
-             <li class="lg:mx-2 lg:py-0 main py-2 text-2xl cursor-pointer"><a href="">About</a></li>
-             <li class="lg:mx-2 lg:py-0 main py-2 text-2xl  cursor-pointer"><a href="">Contacts</a></li>
-             <li class="lg:mx-2 lg:py-0 main py-2 text-2xl  cursor-pointer"><button class="text-xl h-16 hover:bg-black w-48 font-semibold rounded-full text-white bg-amber-950 ba">Get Started</button></li>
+         <ul class=" abc hidden lg:flex flex-col  items-center  lg:flex-row  lg:space-x-16  ">
+             <li class="  lg:py-0 main py-2 text-2xl  cursor-pointer"> <a href="">Home</a></li>
+             <li class=" lg:py-0 main py-2 text-2xl cursor-pointer"><a href="">Features</a></li>
+             <li class=" lg:py-0 main py-2 text-2xl cursor-pointer"><a href="">About</a></li>
+             <li class=" lg:py-0 main py-2 text-2xl  cursor-pointer"><a href="">Contacts</a></li>
+             <li class=" lg:py-0 main py-2 text-2xl  cursor-pointer"><button class="text-xl h-16 hover:bg-black w-48 font-semibold rounded-full text-white bg-amber-950 ba">Get Started</button></li>
              
          </ul>
          
          
      </div>
      </nav>
-     <section class="flex flex-col lg:flex-row my-4 justify-center items-center">
+   
+     
+     <section class=" flex flex-col lg:flex-row py-16 lg:py-24 justify-center items-center">
        
         <div class="flex my-4 flex-col lg:w-1/2 lg:mx-8 lg:items-start justify-center  items-center">
             <h1 class="main text-center lg:text-start text-6xl lg:text-8xl    font-semibold">Counsling Expert</h1>
@@ -40,19 +43,19 @@
             <img class="rounded-3xl" src="./features1.jpg" alt="">
         </div>
      </section>
-     <section id="abc" style="background: url(https://mobirise.com/extensions/inspirem5/counseling-expert/assets/images/background1.jpg) ; background-repeat: no-repeat ; background-size: cover; z-index: 1;" class=" overflow-hidden flex justify-center  items-center w-screen z-10 h-[750px] ">
-        <div  style="background-color: #466F6B;" class="flex  flex-col lg:flex-row  justify-center items-center lg:mr-40 mx-10 rounded-3xl p-11  opacity-80  ">
+     <section id="abc" style="background: url(&quot;https://mobirise.com/extensions/inspirem5/counseling-expert/assets/images/background1.jpg&quot;) ; background-repeat: no-repeat ; background-size: cover;  " class="  flex justify-center  items-center w-screen  h-[750px] ">
+        <div  style="background-color: #29645e; z-index: 1;" class="flex  flex-col lg:flex-row  justify-center items-center lg:mr-40 mx-2 rounded-3xl p-6  opacity-80  ">
  <div class="flex flex-col justify-center lg:m-10  lg:items-start  items-center">
     <h1 class="text-white my-4 text-center lg:text-start lg:text-4xl  text-2xl">OUR MISSION</h1>
     <h1 class="text-white my-4 lg:text-start lg:text-8xl font-semibold text-center text-6xl">About Our Counseling</h1>
  </div>
- <div class="flex flex-col  my-4 lg:m-10 font-medium justify-center items-center">
-    <p class="text-white text-center lg:text-3xl lg:text-start text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis condimentum dui, nec varius elit condimentum non. Phasellus pulvinar scelerisque lorem non volutpa.</p>
+ <div class="flex flex-col mx-3  my-4 lg:m-10 font-light justify-center items-center">
+    <p class="text-white text-center lg:text-3xl lg:text-start text-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis condimentum dui, nec varius elit condimentum non. Phasellus pulvinar scelerisque lorem non volutpa.</p>
  </div>
         </div>
     </section>
     <section class="flex flex-col my-14 justify-center items-center">
-        <h1 class="main text-5xl lg:text-7xl font-semibold">Features</h1>
+        <h1 class="main text-6xl lg:text-7xl font-semibold">Features</h1>
         <div class="flex flex-col lg:flex-row justify-center items-center">
         <div class="flex flex-col lg:w-2/3  my-14 justify-center items-center">
             <div class="flex flex-col w-11/12   p-2 justify-center border-4 border-emerald-800  rounded-3xl items-center"><img class="w-11/12 lg:h-[300px] rounded-3xl " src="./features1.jpg" alt=""></div>
@@ -91,15 +94,15 @@
         <p class="main text-center lg:text-start my-4 mx-8 text-xl">Suspendisse potenti. Proin sed mollis ipsum. Suspendisse quis leo ac eros ultrices pharetra. Duis mauris purus, ultricies eget fringilla ac, commodo vitae sapien. Nam condimentum dolor eu mauris ornare, nec blandit turpis lobortis. Nam quis sodales mi, at lacinia purus. Fusce elementum suscipit, eget sagittis mauris eleifend efficitur. Fusce hendrerit non massa eget tincidunt. Vestibulum tincidunt risus a sapien ultrices.
         </p>
     </div>
-    <div class="lg:w-1/2 mx-6 lg:block hidden">
-        <img class="rounded-br-3xl rounded-bl-full " src="https://mobirise.com/extensions/inspirem5/counseling-expert/assets/images/background1.jpg" alt="">
+    <div class="lg:w-1/2 mx-6 lg:block ">
+        <img class="rounded-3xl lg:rounded-br-3xl lg:rounded-bl-full " src="https://mobirise.com/extensions/inspirem5/counseling-expert/assets/images/background1.jpg" alt="">
     </div>
 
     </section>
-    <section id="abc" style="background: url(https://mobirise.com/extensions/inspirem5/counseling-expert/assets/images/background2.jpg) ; background-repeat: no-repeat ; background-size: cover; " class="  flex  justify-center lg:justify-start lg:mx-30  items-center w-screen  h-[750px]  ">
-        <div    class="flex  flex-col  bg-white justify-center lg:w-1/2 w-11/12 items-start lg:mr-40 mx-10 rounded-3xl p-9 lg:p-14  opacity-100  ">
-            <h1 class="main text-start text-5xl lg:text-8xl font-semibold">Psychology Service</h1>
-              <p class="main my-6 text-2xl lg:text-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt turpis nec pulvinar mollis. Nulla nibh quam, suscipit eu vulputate id, consequat in metus. Maecenas eu ante id metus placerat posuere id eget est. Phasellus ut sodales eros.</p>
+    <section id="abc" style="background: url(https://mobirise.com/extensions/inspirem5/counseling-expert/assets/images/background2.jpg) ; background-repeat: no-repeat ; background-size: cover; " class="  flex  justify-center lg:justify-start   items-center w-screen  h-[750px]  ">
+        <div    class="flex  flex-col  bg-white justify-center lg:w-1/2 w-11/12 items-center lg:items-start lg:mr-40 mx-2 rounded-3xl p-4 lg:p-14  opacity-100  ">
+            <h1 class="main text-center lg:text-start text-5xl lg:text-8xl font-semibold">Psychology Service</h1>
+              <p class="main my-6 text-center lg:text-start text-2xl lg:text-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt turpis nec pulvinar mollis. Nulla nibh quam, suscipit eu vulputate id, consequat in metus. Maecenas eu ante id metus placerat posuere id eget est. Phasellus ut sodales eros.</p>
               <button class="text-xl h-16 hover:bg-black w-48 font-semibold border-2 border-emerald-800 rounded-full text-emerald-800 bg-white ba">Get Started</button>
         </div>
         
@@ -141,10 +144,10 @@
 
     </section>
     <section class="bg-amber-950 flex flex-col justify-center items-center ">
-        <h1 class="text-white text-5xl my-8 ">Watch Video</h1>
+        <h1 class="text-white text-4xl lg:text-6xl font-bold my-16 ">Watch Video</h1>
        
-            <div class="flex flex-col w-11/12 lg:w-3/4  my-16   p-8 justify-center border-4 border-emerald-800  rounded-3xl items-center">
-                <div class="w-11/12 flex justify-center items-center  h-[400px] lg:h-[500px] rounded-3xl " style="background: url(./background3.jpg) ;background-repeat: no-repeat;background-size: cover; ">
+            <div class="flex flex-col w-11/12 lg:w-3/4  mb-16   py-3 justify-center border-4 border-emerald-800  rounded-3xl items-center">
+                <div class="w-11/12 flex justify-center items-center h-[200px] lg:h-[500px] rounded-3xl " style="background: url(./background3.jpg) ;background-repeat: no-repeat; background-size: cover; ">
                   <i class="fa fa-youtube-play  text-emerald-800 text-6xl"></i>
                 </div>
             </div>
@@ -153,12 +156,12 @@
         
 
     </section>
-    <section class="flex flex-col  justify-center items-center">
-        <h1 class="my-8 text-4xl font-semibold main">Our Team</h1>
+    <section class="flex flex-col  my-4 justify-center items-center">
+        <h1 class="my-8 text-4xl lg:text-7xl font-semibold main">Our Team</h1>
         <div class="flex flex-col lg:space-x-5  w-11/12 lg:flex-row justify-center items-center">
-        <div onmouseenter="toogle()" onmouseleave="toogle()" class="flex flex-col lg:flex-row  my-6 rounded-3xl  border-2 border-gray-300 justify-center items-center h-[325px] lg:w-1/3 w-11/12">
+        <div onmouseenter="toogle()" onmouseleave="toogle()" class="flex flex-col lg:flex-row  my-6 rounded-3xl  border-2 border-gray-300 justify-center items-center h-[425px]  lg:w-1/3 w-11/12">
             <div class=" display1  flex flex-col  justify-center items-center">
-                <img  class=" rounded-3xl h-[320px] w-screen" src="./team1 (1).jpg" alt="">
+                <img  class=" rounded-3xl h-[420px]  w-screen" src="./team1 (1).jpg" alt="">
                 
             </div>
             
@@ -181,9 +184,9 @@
         </div>
       
     </div>
-    <div onmouseenter="toogle1()" onmouseleave="toogle1()" class="flex flex-col lg:flex-row my-6 rounded-3xl h-[325px]  border-2 border-gray-300 justify-center items-center lg:w-1/3 w-11/12">
+    <div onmouseenter="toogle1()" onmouseleave="toogle1()" class="flex flex-col lg:flex-row my-6 rounded-3xl h-[425px]   border-2 border-gray-300 justify-center items-center lg:w-1/3 w-11/12">
         <div class=" display2 flex flex-col  justify-center items-center">
-            <img  class=" rounded-3xl h-[320px] w-screen" src="./team2 (1).jpg" alt="">
+            <img  class=" rounded-3xl h-[420px]  w-screen" src="./team2 (1).jpg" alt="">
             
         </div>
         
@@ -206,9 +209,9 @@
     </div>
   
 </div>
-<div onmouseenter="toogle2()" onmouseleave="toogle2()" class="flex flex-col lg:flex-row h-[325px] my-6 rounded-3xl  border-2 border-gray-300 justify-center items-center lg:w-1/3 w-11/12">
+<div onmouseenter="toogle2()" onmouseleave="toogle2()" class="flex flex-col lg:flex-row h-[425px]   my-6 rounded-3xl  border-2 border-gray-300 justify-center items-center lg:w-1/3 w-11/12">
     <div class=" display3 flex flex-col  justify-center items-center">
-        <img  class=" rounded-3xl h-[320px] w-screen" src="./features1.jpg" alt="">
+        <img  class=" rounded-3xl h-[420px]  w-screen" src="./features1.jpg" alt="">
         
     </div>
     
@@ -241,10 +244,10 @@
     </section>
 
     <section class="flex flex-col my-16 justify-center items-center">
-        <h1 class="main text-4xl text-center font-semibold">Testimonials</h1>
-        <div class="flex flex-col my-8 lg:space-x-8 w-11/12 lg:flex-row justify-center items-center">
-            <div class="flex flex-col rounded-3xl p-6 border-2 border-amber-950 w-11/12 my-8  lg:items-start justify-center items-center">
-                <p class="main text-xl my-8 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing. Donec sagittis condimentum dui, nec varius elit condimentum. Phasellus pulvinar scelerisque lorem, volutpat justo dictum."</p>
+        <h1 class="main text-4xl lg:text-6xl text-center font-semibold">Testimonials</h1>
+        <div class="flex flex-col my-8 lg:space-x-8 w-11/12  lg:flex-row justify-center items-center">
+            <div class="flex flex-col rounded-3xl lg:p-6  border-2 border-amber-950 w-full my-8  lg:items-start justify-center items-center">
+                <p class="main text-xl lg:text-2xl my-8 mx-2 lg:text-start text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing. Donec sagittis condimentum dui, nec varius elit condimentum. Phasellus pulvinar scelerisque lorem, volutpat justo dictum."</p>
                 <div class="flex flex-row my-8 justify-center items-center">
                     <img class="h-20 w-20 mx-4 rounded-full" src="./team1 (1).jpg" alt="">
                     <div  class="  mx-5 flex flex-col ">
@@ -253,8 +256,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col rounded-3xl p-6 border-2 border-amber-950 w-11/12 my-8 lg:items-start  justify-center items-center">
-                <p class="main text-xl my-8 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing. Donec sagittis condimentum dui, nec varius elit condimentum. Phasellus pulvinar scelerisque lorem, volutpat justo dictum."</p>
+            <div class="flex flex-col rounded-3xl lg:p-6 border-2 border-amber-950 w-full my-8 lg:items-start  justify-center items-center">
+                <p class="main text-xl mx-2 my-8 lg:text-start lg:text-2xl text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing. Donec sagittis condimentum dui, nec varius elit condimentum. Phasellus pulvinar scelerisque lorem, volutpat justo dictum."</p>
                 <div class="flex flex-row my-8 justify-center items-center">
                     <img class="h-20 w-20 mx-4 rounded-full" src="./team2 (1).jpg" alt="">
                     <div  class="  mx-5 flex flex-col ">
@@ -266,12 +269,12 @@
         </div>
 
     </section>
-    <section style="background-color: #1D5356;" class="flex my-4 py-16 flex-col lg:flex-row justify-center lg:justify-around items-center">
-            <div class="my-8">
-                <img class="rounded-full lg:h-96 lg:w-96  h-60 w-60"  src="./features1.jpg" alt="">
+    <section style="background-color: #1D5356;" class="flex my-8 py-16 flex-col lg:flex-row justify-center lg:justify-around items-center">
+            <div class="my-8 flex items-center justify-center">
+                <img class="rounded-full h-96  w-96  "  src="./features1.jpg" alt="">
             </div>
-            <div class="flex flex-col justify-center items-start">
-                <h1 class="text-4xl lg:text-6xl font-semibold text-white text-center">How can we help?</h1>
+            <div class="flex flex-col justify-center items-center lg:items-start">
+                <h1 class="text-6xl lg:text-6xl font-semibold text-white text-center">How can we help?</h1>
                 <form action="">
                       <input  class="text-3xl text-white my-6" style=" background-color:#1D5356 ;" placeholder="Name" type="text">
                       <hr >
@@ -279,12 +282,12 @@
                       <hr>
                       <input  class="text-3xl text-white my-6"  style="background-color:#1D5356 ;" placeholder="Textarea" type="text">
                       <hr>
-                      <input class="text-gray-500 my-4 border-2 rounded-full border-white bg-white px-8 py-2 text-xl" type="submit" placeholder="Submit">
+                      <input class="text-gray-500 my-4 border-2 rounded-full border-white bg-white px-12 py-4 text-xl" type="submit" placeholder="Submit">
                 </form>
             </div>
     </section>
     <section class="flex flex-col my-6 justify-center items-center">
-         <h1 class="main text-7xl my-3">Visit Us</h1>
+         <h1 class="main text-5xl lg:text-7xl font-semibold my-8">Visit Us</h1>
         <iframe class="w-11/12  rounded-3xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.3802575302097!2d77.53900297417594!3d28.79774007656169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c8aa6e9f22a7f%3A0x3da6bd68cd127da6!2sSRM%20University!5e0!3m2!1sen!2sin!4v1688456439854!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           
         
@@ -293,14 +296,16 @@
     
 </section>
 <section class="bg-amber-950 h-28 flex justify-center items-center">
-   <h1 class="text-white text-3xl" >© Copyright 2030 Mobirise - All Rights Reserved</h1>
+   <h1 class="text-white text-center mx-10 lg:text-2xl text-xl" >© Copyright 2030 Mobirise - All Rights Reserved</h1>
 </section>
  
  <script>
     let a=true;
     document.querySelector(".pqr").classList.add('hidden');
     document.querySelector(".second").classList.add('hidden');
-    document.querySelector(".third").classList.add('hidden');
+    document.querySelector(".third").classList.add('hidden')
+   
+    
     
     function toogle(){
         if(a==true){
@@ -336,7 +341,7 @@
     }
     function toogle2(){
         if(a==true){
-            document.querySelector(".abc").classList.add('hidden')
+            
        
         document.querySelector(".third").classList.remove('hidden');
         document.querySelector('.display3').classList.add("hidden")
@@ -345,7 +350,7 @@
         a=false;
         }
         else{
-          
+           
         document.querySelector(".third").classList.add('hidden');
         document.querySelector('.display3').classList.remove("hidden")
         a=true;
@@ -370,9 +375,11 @@
 
         
         document.querySelector(".abc").classList.remove('hidden')
+        document.querySelector(".abc").classList.add('flex')
         a=false;
         }else{
             document.querySelector(".abc").classList.add('hidden')
+
             a=true;
         }
     }
@@ -390,6 +397,7 @@ var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("fixed")
+   
   } else {
     navbar.classList.remove("fixed");
   }
